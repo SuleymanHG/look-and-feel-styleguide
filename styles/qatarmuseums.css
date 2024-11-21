@@ -125,6 +125,11 @@ body:has(.labelradio:has(input:checked)) {
     color: light-dark(var(--dark), var(--light));
     padding: var(--spacing);
     margin: var(--spacing);
+    
+    &:hover{
+        background-color: light-dark(var(--light-hover-button), var(--dark-hover-button));
+        color: light-dark(var(--light-hover-button-text), var(--dark-hover-button-text));
+    }  
 
 }
 
@@ -134,6 +139,11 @@ body:has(.labelradio:has(input:checked)) {
     color: var(--light);
     padding: var(--spacing);
     margin: var(--spacing);
+
+    &:hover{
+        background-color: light-dark(var(--light-hover-button), var(--dark-hover-button));
+        color: light-dark(var(--light-hover-button-text), var(--dark-hover-button-text));
+    }  
    
 }
 
