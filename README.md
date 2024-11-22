@@ -1,6 +1,6 @@
 # Styleguide
 <h1>Overview</h1>
-This repo contains the shared stylesheet for our project. The stylesheet includes main elements of the house style like colors, typography, and form components. Later, we might add more elements as we go further in the sprint. We also created a Figma [Styleguide](https://github.com/yamenAl/look-and-feel-corporate-identity/issues/10) Template to plan and visualize the design structure before coding.
+This repo contains the shared stylesheet for our project. The stylesheet includes main elements of the house style like colors, typography, and form components. Later, we might add more elements as we go further in the sprint. We also created a Figma [Styleguide](https://github.com/yamenAl/look-and-feel-corporate-identity/issues/10) Template to plan and visualize the design structure before coding.<be>
 <img src="https://github.com/user-attachments/assets/00fbd93e-7c2d-4329-becc-7185f8161ae1" width="600" />
 
 
