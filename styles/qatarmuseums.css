@@ -37,7 +37,7 @@
 }
 
 * {
-    background-color: light-dark(var(--light), var(--dark));
+    background-color: light-dark(var(--light), var(--dark)); 
     color: light-dark(var(--dark), var(--light));
     font-family: "Rubik", sans-serif;
     font-optical-sizing: auto;
