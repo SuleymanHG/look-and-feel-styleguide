@@ -1,9 +1,6 @@
 /* Schrijf hier de verschillende stijlen, die gedeeld gaan
    worden door jullie projecten */
-@font-face {
-    font-family: 'formlettertype' ;
-    src: url(fonts\BellotaText-Light.otf);
-}
+
 
 /* Kleuren */
 :root {
@@ -15,7 +12,7 @@
     --light-filter-button:#464646;
     --light-hover-button:#000000;
     --light-hover-button-text:#ffffff;
-    --light-form-field:#464646;
+    --light-form-field:#ffffff;
   
     --dark: black;
     --dark-code: gold;
@@ -76,9 +73,32 @@
 
 
 /* Typografie */
+
+@font-face {
+    font-family: DIN Next LT Arabic Light;
+    src: url("https://db.onlinewebfonts.com/t/d78f5d2c76185fa07aaf8dd729eef33e.woff")format("woff");
+}
+@font-face {
+    font-family: 'Fatfont';
+    src:  url("https://db.onlinewebfonts.com/t/91c4d21e13acabd276fc292f34639bb1.woff2")format("woff2"),
+          url("https://db.onlinewebfonts.com/t/91c4d21e13acabd276fc292f34639bb1.woff")format("woff"),;
+    font-style: normal;
+}
 code {
     color: light-dark(var(--light-code), var(--dark-code));
 }
+body {
+    --primary-font: 'Fatfont', sans-serif;
+    --primary-font-ar: ' DIN Next LT Arabic Light', sans-serif;
+
+    --font-weight-light: 300;
+    --font-weight-bold: 700;
+
+    --letter-spacing: -0.02em;
+
+    font-family: var(--primary-font);
+}
+
 
 
 
